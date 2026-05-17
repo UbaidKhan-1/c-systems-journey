@@ -1,10 +1,10 @@
 # C Systems Journey
 
-A collection of projects built while learning C and low-level systems programming from the ground up.
+A collection of projects built while learning C, C++ and low-level systems programming from the ground up.
 
 This repository documents my progression from fundamental concepts like arrays and structs to more advanced topics such as dynamic memory allocation, file persistence, data structures, and system-style program design.
 
-The goal of this repository is not just to learn C syntax, but to understand how software works internally at a lower level.
+The goal of this repository is not just to learn syntax, but to understand how software works internally at a lower level.
 
 ---
 
@@ -35,7 +35,7 @@ Each project lives in its own directory and contains:
 ###Example structure:
 
 ```text
-c-systems-journey/
+low-level-learning/
 │
 ├── project-01-linked-list/
 ├── project-02-task-manager/
@@ -55,9 +55,7 @@ c-systems-journey/
 
 ## Technologies
 
-- Language: C
-- Compiler: GCC
-
+- Languages: C, C++, Rust
 ---
 
 ## Build Example
@@ -78,7 +76,7 @@ gcc TaskManager.c -o taskmanager
 
 ## Why This Repository Exists
 
-I wanted a single place to document my progression while learning C through projects instead of isolated tutorials or small disconnected exercises.
+I wanted a single place to document my progression while learning through projects instead of isolated tutorials or small disconnected exercises.
 
 This repository acts as both:
 

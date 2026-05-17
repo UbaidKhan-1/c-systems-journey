@@ -19,8 +19,8 @@ int loadTasks(){
 		return 1;
 	};
 	while (fread(&(Tasks[Index]), sizeof(struct Task), 1, TaskFile)){
-	   if (Index == Taskslength-1){
-	   	break;
+	   if (Index == Taskslength-1){ // If tasks in the file exceed 
+	   	break;                   // allocated memory, break
 	   };
 	   Index ++;
     };
